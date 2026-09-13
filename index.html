@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+
+</head>
+<body>
+  <!--Menu-->
+  <div id="menu-container"></div>
+
+<div class="container">
+  <!-- Content here -->
+    <h3 class="alert alert-success mt-4">หน้าหลัก</h3>
+    <div class="alert alert-primary text-center" role="alert">
+    Tanes Toesombatsiri
+    </div>
+
+
+    <div class="text-end mb-4">
+        <a class="btn btn-info" href="https://www.google.com">Google</a>
+
+    </div>
+    
+</div>
+
+<!--แบ่งคอลัมน์ด้วย Grid System -->
+<div class="container text-center mt-4 mb-4">
+  <div class="row">
+    <div class="col-sm-4 bg-primary-subtle" >
+      <img src="image/images.jpg" width="100%">
+    จิ้งจอก
+    </div>
+    
+    <div class="col-sm-4 bg-success-subtle" >
+        <img src="image/images (1).jpg"width="100%">
+      หมาป่า
+    </div>
+
+    <div class="col-sm-4 bg-warning-subtle" width="100%">
+
+<h3> ลงทะเบียน </h3>
+
+<form class="text-start">
+
+    <div class="mb-3">
+    <label class="form-label">Firstname</label>
+    <input type="text" class="form-control" id="firstname" required placeholder="input firstname">
+    </div>
+
+    <div class="mb-3">
+    <label class="form-label">Lastname</label>
+    <input type="text" class="form-control" id="lastname" required placeholder="input lastname">
+    </div>
+
+    <div class="mb-3">
+    <label class="form-label">Telephone</label>
+    <input type="tel" class="form-control" id="telephone" required placeholder="ex. xxx-xxx-xxxx">
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Province</label>
+    <select class="form-select" id="Province" required>
+        <option selected>เลือกจังหวัด</option>
+        <option value="ชลบุรี">ชลบุรี</option>
+        <option value="ระยอง">ระยอง</option>
+        <option value="เชียงใหม่">เชียงใหม่</option>
+    </select>
+    </div>
+    
+  <div class="mb-3">
+    <label class="form-label">Email address</label>
+    <input type="email" class="form-control" id="email1" required placeholder="input email">
+    </div>
+
+  <div class="mb-3">
+    <label  class="form-label">Password</label>
+    <input type="password" class="form-control" id="pw" required placeholder="input password">
+  </div>
+
+  <div class="text-center mb-4">
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="reset" class="btn btn-secondary">Cancel</button>
+  </div>
+
+</form>
+    </div><!-- End form -->
+
+
+  </div> <!-- End row -->
+</div>
+</body>
+</html>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/menu.js"></script>
+  
